@@ -51,13 +51,16 @@ document.querySelectorAll('.feature-card, .topic-card, .resource-card, .step').f
     observer.observe(el);
 });
 
-// Smooth scroll for navigation
+// Smooth scroll for navigation - FIXED VERSION
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         const href = this.getAttribute('href');
         if (href !== '#' && document.querySelector(href)) {
             e.preventDefault();
-            document.querySelector(href).scrollIntoView({
+            const target = document.querySelector(href);
+            const offsetTop = target.offsetTop - 80; // Account for sticky navbar
+            window.scrollTo({
+                top: offsetTop,
                 behavior: 'smooth'
             });
         }
