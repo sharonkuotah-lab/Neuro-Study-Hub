@@ -3,233 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Neuro-Study-Hub: A collaborative learning platform for NURS 251 Neuroscience studies">
-    <meta name="keywords" content="neuroscience, study hub, collaborative learning, NURS 251">
-    <meta name="author" content="Sharon Kuotah Lab">
-    <title>Neuro-Study-Hub | Collaborative Neuroscience Learning Platform</title>
+    <title>NURS 251 Neuro Study Hub</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%235b21b6'>🧠</text></svg>">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav id="navbar" class="navbar">
+    <header>
         <div class="container">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <span class="logo-icon">🧠</span>
-                    <span class="logo-text">Neuro-Study-Hub</span>
-                </div>
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#features" class="nav-link">Features</a></li>
-                    <li><a href="#topics" class="nav-link">Topics</a></li>
-                    <li><a href="#resources" class="nav-link">Resources</a></li>
-                    <li><a href="#contribute" class="nav-link">Contribute</a></li>
-                </ul>
-            </div>
+            <h1>🧠 NURS 251 Neuro Study Hub</h1>
+            <p>Study materials for neuroscience nursing</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#materials">Study Materials</a>
+            <a href="#topics">Topics</a>
+            <a href="#contribute">Contribute</a>
+            <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub" target="_blank">GitHub</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Welcome to Neuro-Study-Hub</h1>
-                <p>A collaborative platform for mastering neuroscience concepts in NURS 251</p>
-                <div class="hero-buttons">
-                    <a href="#topics" class="btn btn-primary">Explore Topics</a>
-                    <a href="#contribute" class="btn btn-secondary">Join as Contributor</a>
+    <main class="container">
+        <!-- Materials Section -->
+        <section id="materials" class="section">
+            <h2>📚 Study Materials</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>📝 Study Notes</h3>
+                    <p>Organized notes by topic</p>
+                    <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/tree/main/resources/notes" target="_blank" class="btn">View →</a>
+                </div>
+                <div class="card">
+                    <h3>🎴 Flashcards</h3>
+                    <p>Key terms and concepts</p>
+                    <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/tree/main/resources/flashcards" target="_blank" class="btn">View →</a>
+                </div>
+                <div class="card">
+                    <h3>📖 Study Guides</h3>
+                    <p>Unit guides with summaries</p>
+                    <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/tree/main/resources/guides" target="_blank" class="btn">View →</a>
+                </div>
+                <div class="card">
+                    <h3>🎨 Diagrams</h3>
+                    <p>Visual brain and nerve diagrams</p>
+                    <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/tree/main/resources/diagrams" target="_blank" class="btn">View →</a>
+                </div>
+                <div class="card">
+                    <h3>📹 Videos</h3>
+                    <p>Recommended video links</p>
+                    <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/tree/main/resources/videos" target="_blank" class="btn">View →</a>
+                </div>
+                <div class="card">
+                    <h3>❓ Practice Questions</h3>
+                    <p>Exam prep questions</p>
+                    <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/tree/main/resources/practice-questions" target="_blank" class="btn">View →</a>
                 </div>
             </div>
-            <div class="hero-illustration">
-                <div class="brain-animation">🧠</div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Why Choose Neuro-Study-Hub?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📚</div>
-                    <h3>Comprehensive Resources</h3>
-                    <p>Access study guides, notes, flashcards, and visual diagrams curated by peers and instructors.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">👥</div>
-                    <h3>Collaborative Learning</h3>
-                    <p>Learn together with classmates through shared resources, discussions, and peer reviews.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Quick Access</h3>
-                    <p>Find exactly what you need with organized topics, search functionality, and clear navigation.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Focused Learning</h3>
-                    <p>Master one topic at a time with curated content designed for NURS 251 objectives.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">💡</div>
-                    <h3>Interactive Tools</h3>
-                    <p>Engage with flashcards, quizzes, and visual learning tools to reinforce concepts.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h3>Always Updated</h3>
-                    <p>Content is continuously improved and updated by the community based on feedback.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- Topics Section -->
+        <section id="topics" class="section">
+            <h2>🧬 Topics Covered</h2>
+            <ul class="topic-list">
+                <li><strong>Nervous System Anatomy</strong> - CNS, PNS, neurons, brain regions</li>
+                <li><strong>Neural Transmission</strong> - Action potentials, synapses, neurotransmitters</li>
+                <li><strong>Brain Functions</strong> - Sensory, motor, cognition, memory</li>
+                <li><strong>Pharmacology</strong> - Drugs affecting the nervous system</li>
+                <li><strong>Pathophysiology</strong> - Disorders, injuries, diseases</li>
+                <li><strong>Clinical Assessment</strong> - Exams, tests, diagnosis</li>
+            </ul>
+        </section>
 
-    <!-- Topics Section -->
-    <section id="topics" class="topics">
-        <div class="container">
-            <h2>Core Topics Covered</h2>
-            <div class="topics-grid">
-                <div class="topic-card">
-                    <h3>🧬 Nervous System Anatomy</h3>
-                    <p>Central and peripheral nervous systems, neuron structure, and major brain regions.</p>
-                </div>
-                <div class="topic-card">
-                    <h3>⚡ Neural Transmission</h3>
-                    <p>Action potentials, synaptic transmission, and neurotransmitters.</p>
-                </div>
-                <div class="topic-card">
-                    <h3>🧩 Brain Functions</h3>
-                    <p>Sensory processing, motor control, cognition, and memory.</p>
-                </div>
-                <div class="topic-card">
-                    <h3>💊 Pharmacology</h3>
-                    <p>Drug actions on the nervous system and clinical applications.</p>
-                </div>
-                <div class="topic-card">
-                    <h3>🔬 Pathophysiology</h3>
-                    <p>Neurological disorders, spinal cord injuries, and neurodegenerative diseases.</p>
-                </div>
-                <div class="topic-card">
-                    <h3>📊 Clinical Assessment</h3>
-                    <p>Neurological examination, diagnostic tests, and clinical presentations.</p>
-                </div>
+        <!-- How to Use Section -->
+        <section class="section">
+            <h2>ℹ️ How to Use This Hub</h2>
+            <div class="info-box">
+                <h3>For Studying:</h3>
+                <ol>
+                    <li>Click on any study material above</li>
+                    <li>Browse files in the GitHub folder</li>
+                    <li>Download or view directly</li>
+                    <li>Use for exam prep</li>
+                </ol>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Resources Section -->
-    <section id="resources" class="resources">
-        <div class="container">
-            <h2>Available Resources</h2>
-            <div class="resources-grid">
-                <div class="resource-card">
-                    <div class="resource-icon">📝</div>
-                    <h3>Study Notes</h3>
-                    <p>Detailed notes organized by topic with key concepts highlighted.</p>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon">🎴</div>
-                    <h3>Flashcards</h3>
-                    <p>Interactive flashcard sets for memorization and quick review.</p>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon">📖</div>
-                    <h3>Study Guides</h3>
-                    <p>Comprehensive guides for each unit with exam preparation tips.</p>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon">🎨</div>
-                    <h3>Visual Diagrams</h3>
-                    <p>Anatomical diagrams, flowcharts, and concept maps.</p>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon">📹</div>
-                    <h3>Video Links</h3>
-                    <p>Curated video tutorials and lectures for visual learners.</p>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon">❓</div>
-                    <h3>Practice Questions</h3>
-                    <p>Sample exam questions with explanations and answer keys.</p>
-                </div>
+        <!-- Contribute Section -->
+        <section id="contribute" class="section">
+            <h2>✏️ Share Your Notes</h2>
+            <div class="info-box">
+                <p>Have great study notes? Want to share with classmates?</p>
+                <ol>
+                    <li>Go to the <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub" target="_blank">GitHub repository</a></li>
+                    <li>Click "Fork" to make your own copy</li>
+                    <li>Add your study materials to the resources folder</li>
+                    <li>Submit a Pull Request (we'll review and add it!)</li>
+                </ol>
+                <p style="margin-top: 15px;">
+                    <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/blob/main/CONTRIBUTING.md" target="_blank" class="btn">View Contributing Guidelines</a>
+                </p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contribution Section -->
-    <section id="contribute" class="contribute">
-        <div class="container">
-            <h2>How to Contribute</h2>
-            <div class="contribution-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Fork the Repository</h3>
-                    <p>Create your own copy of the repository to work on your content.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Create or Improve Content</h3>
-                    <p>Add study materials, notes, flashcards, or improve existing resources.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Submit a Pull Request</h3>
-                    <p>Share your contributions for review by the community and maintainers.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <h3>Get Feedback & Merge</h3>
-                    <p>Receive feedback, make improvements, and see your content live!</p>
-                </div>
+        <!-- Quick Links -->
+        <section class="section">
+            <h2>🔗 Quick Links</h2>
+            <div class="links">
+                <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub" target="_blank" class="btn btn-large">📂 GitHub Repository</a>
+                <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/issues" target="_blank" class="btn btn-large">💬 Ask Questions / Report Issues</a>
+                <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/discussions" target="_blank" class="btn btn-large">💭 Class Discussions</a>
             </div>
-            <div class="contribution-cta">
-                <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/fork" class="btn btn-primary" target="_blank">Start Contributing Today</a>
-                <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/blob/main/CONTRIBUTING.md" class="btn btn-secondary" target="_blank">Read Contribution Guidelines</a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Neuro-Study-Hub</h4>
-                    <p>A collaborative platform for NURS 251 neuroscience learning.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#topics">Topics</a></li>
-                        <li><a href="#contribute">Contribute</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/blob/main/README.md" target="_blank">Documentation</a></li>
-                        <li><a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/blob/main/CONTRIBUTING.md" target="_blank">Contributing</a></li>
-                        <li><a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub/blob/main/LICENSE" target="_blank">License</a></li>
-                        <li><a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub" target="_blank">GitHub Repository</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <p>Have questions? Open an issue on GitHub or join the discussion!</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Neuro-Study-Hub. All rights reserved. | Licensed under MIT License</p>
-            </div>
+            <p>NURS 251 Neuro Study Hub | Created for classmates | <a href="https://github.com/sharonkuotah-lab/Neuro-Study-Hub" target="_blank">GitHub</a></p>
         </div>
     </footer>
 
